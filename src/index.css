@@ -17,6 +17,11 @@
   align-items: center;
 }
 
+.container {
+  width: 60vh;
+  height: 100%;
+}
+
 .section-space {
   display: flex;
   flex-direction: column;
@@ -66,6 +71,12 @@
   font-size: 14px;
 }
 
+.icons-position {
+  position: relative;
+  font-size: 18px;
+  color: #D4D4D4;
+}
+
 input {
   padding-bottom: 5px;
   width: 50vh;
@@ -86,3 +97,8 @@ button {
   background-color: transparent;
   border: 1px solid;
 }
+
+p {
+  font-size: 10px;
+}
+

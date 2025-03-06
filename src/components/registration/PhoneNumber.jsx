@@ -29,7 +29,7 @@ const PhoneNumber = () => {
         </div>
         {/* information  */}
         <div className="box-info" style={{ marginBottom: "7.5vh" }}>
-          <p style={{ fontSize: "10px" }}>Enter your phone number</p>
+          <p>Enter your phone number</p>
           <div style={{ display: "flex", gap: "5px" }}>
             {/* DDD */}
             <select name="" id="" className="select-options" style={{width: "50px"}}>

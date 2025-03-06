@@ -7,10 +7,7 @@ import EmailPassword from "../components/registration/EmailPassword";
 const Registration = () => {
   return (
     <div
-      style={{
-        width: "60vh",
-        height: "100%",
-      }}
+      className="container"
     >
       {/* header */}
       <header style={{ marginBottom: "5vh" }}>
@@ -23,8 +20,8 @@ const Registration = () => {
       {/* navigation*/}
       <nav>
         <PhoneNumber />
-        <ConfirmCode/>
-        <EmailPassword/>
+        <ConfirmCode />
+        <EmailPassword />
       </nav>
     </div>
   );

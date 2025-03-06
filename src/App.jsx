@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Registration from "./pages/Registration";
+import ProfileInfo from "./pages/ProfileInfo";
 import Header from "./components/cabeçalho/Header";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         {/* Rotes */}
         <Routes>
           <Route path="/" element={<Registration />}></Route>
+          <Route path="/profileinfo" element={<ProfileInfo/>}></Route>
         </Routes>
       </div>
     </Router>

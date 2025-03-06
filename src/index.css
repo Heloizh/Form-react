@@ -1,15 +1,88 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  font-family: "Poppins", sans-serif;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 12px;
+  background-color: #ffffff;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 44px;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
+.reusable-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-space {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.box-info {
+  padding: 25px;
+  border: 1px solid #e2e4e5;
+  border-radius: 5px;
+  font-size: 8px;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.step {
+  background-color: transparent;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+.line {
+  background-color: #ccc;
+  height: 1px;
+  width: 30px;
+}
+
+.step.active {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.select-options {
+  padding-bottom: 5px;
+  width: 150vh;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  background-color: transparent;
+  font-size: 14px;
+}
+
+input {
+  padding-bottom: 5px;
+  width: 50vh;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  font-size: 14px;
+}
+
+input:hover {
+  border-bottom: 1px solid #007bff;
+}
+
+button {
+  cursor: pointer;
+  width: 30%;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid;
+}
